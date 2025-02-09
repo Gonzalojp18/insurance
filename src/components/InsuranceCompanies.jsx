@@ -1,7 +1,7 @@
 import { useLanguage } from '../context/LanguageContext';
-import obama from "../../public/obama.png"
-import whash from "../../public/wash.png"
-import cigna from "../../public/cig.png"
+import obama from "../assets/obama.png"
+import whash from "../assets/wash.png"
+import cigna from "../assets/cig.png"
 
 export function InsuranceCompanies() {
   const { t } = useLanguage();
