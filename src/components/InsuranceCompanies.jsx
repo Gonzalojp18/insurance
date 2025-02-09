@@ -1,4 +1,7 @@
 import { useLanguage } from '../context/LanguageContext';
+import obama from "../../public/obama.png"
+import whash from "../../public/wash.png"
+import cigna from "../../public/cig.png"
 
 export function InsuranceCompanies() {
   const { t } = useLanguage();
@@ -13,7 +16,7 @@ export function InsuranceCompanies() {
           {/* ObamaCare */}
           <div className="bg-white dark:bg-gray-700 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
           <img
-              src="/public/obama.PNG"
+              src={obama}
               alt="ObamaCare"
               className="h-16 mx-auto mb-6"
             />
@@ -26,7 +29,7 @@ export function InsuranceCompanies() {
           {/* Washington National */}
           <div className="bg-white dark:bg-gray-700 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
           <img
-              src="/public/wash.PNG"
+              src={whash}
               alt="Washington National"
               className="h-16 mx-auto mb-6"
             />
@@ -39,7 +42,7 @@ export function InsuranceCompanies() {
           {/* Cigna */}
           <div className="bg-white dark:bg-gray-700 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
           <img
-              src="/public/cig.PNG"
+              src={cigna}
               alt="Cigna"
               className="h-16 mx-auto mb-6"
             />
